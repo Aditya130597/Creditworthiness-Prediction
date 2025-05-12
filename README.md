@@ -78,16 +78,15 @@ Creation of flag features: Convert categorical data to binary values for feature
 Imputation of missing values and handling of outliers.
 
 4. Encoding and Scaling:
-Encoding using LabelEncoder, OneHotEncoder and TargetEncoder.
-Normalization using MinMaxScaler or StandardScaler.
+
+	Encoding using LabelEncoder, OneHotEncoder and TargetEncoder.
+
+	Normalization using MinMaxScaler or StandardScaler.
 
 5. Modeling:
 Logistic Regression for predicting loan approval.
 
-6. Evaluation of results using:
-Classification Report
-ROC AUC Curve
-Precision-Recall Curve
+6. Evaluation of results using: Classification Report, ROC AUC Curve, Precision-Recall Curve
 
 # Trade-off Chanllenges
 ● Minimizing False Positives: Detecting real defaulters is crucial to avoid non-performing assets (NPAs), ensuring we only disburse loans to creditworthy individuals.
@@ -96,8 +95,11 @@ Precision-Recall Curve
 
 # Results
 The model's performance will be evaluated based on:
+
 ● Accuracy: Overall accuracy of the model.
+
 ● ROC AUC: The area under the ROC curve to evaluate classification performance.
+
 ● Precision-Recall Tradeoff: Assessing the balance between precision and recall to minimize financial risk.
 
 # Requirements
